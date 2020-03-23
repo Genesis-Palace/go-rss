@@ -1,0 +1,11 @@
+
+[owner]
+name="Raymond's Feeds Rss Service"
+version="1.0.0"
+description="发现世界新鲜事"
+
+
+[channel]
+title="每日订阅"
+link="127.0.0.1:8090"
+description="Raymond private subscription Rss"

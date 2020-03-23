@@ -1,0 +1,11 @@
+
+[node]
+    [node.rttswith]
+    url="http://www.rttswitch.com/"
+    list_parser=".eltd-post-title a"
+    next_parser=[".eltd-post-title", ".eltd-text-holder"]
+
+    [node.nytimes]
+    url="https://cn.nytimes.com/world/"
+    list_parser=".regularSummaryHeadline a"
+    next_parser=[".article-header header h1", ".row"]
